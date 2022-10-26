@@ -26,15 +26,36 @@
                     <StackPanel
                     Orientation="Vertical"
                     Width="150"/>
-                    </Border>
+                </Border>
             </DockPanel>
             <DockPanel Width="auto">
                 <DockPanel DockPanel.Dock="Top">
-                    
+                    <StackPanel
+                        Margin="35,0,0,0"
+                        VerticalAlignment="Center">
+                        <TextBlock
+                            x:Name="txtNombreApartado"
+                            TextAlignment="Center"
+                            TextWrapping="Wrap"
+                            Foreground="#31579d"      
+                            Text="NOMBRE DEL APARTADO" FontFamily="Roboto Mono" FontSize="20" FontWeight="SemiBold"/>
+                    </StackPanel>
+                    <StackPanel
+                        HorizontalAlignment="Right"
+                        Orientation="Horizontal">
+                        <customcontrolsLocal:btnMinimize  
+                        Margin="0,10,5,10"/>
+                        <customcontrolsLocal:btnClose
+                        Margin="0,10,30,10"/>
+                    </StackPanel>
                 </DockPanel>
-                <StackPanel 
-                    Background="Transparent"
-                    Orientation="Vertical"/>
+                <DockPanel
+                    Margin="10,0,10,10"
+                    x:Name="dockChilds"
+                    Background="LightCyan">
+
+
+                </DockPanel>
             </DockPanel>
         </DockPanel>
     </Border>
