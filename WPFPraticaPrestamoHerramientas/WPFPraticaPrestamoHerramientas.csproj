@@ -8,6 +8,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\RobotoMono-Regular.ttf" />
+    <None Remove="Fonts\sf-ui-display-black-58646a6b80d5a.otf" />
+    <None Remove="Fonts\sf-ui-display-bold-58646a511e3d9.otf" />
+    <None Remove="Fonts\sf-ui-display-heavy-586470160b9e5.otf" />
+    <None Remove="Fonts\sf-ui-display-light-58646b33e0551.otf" />
+    <None Remove="Fonts\sf-ui-display-medium-58646be638f96.otf" />
+    <None Remove="Fonts\sf-ui-display-semibold-58646eddcae92.otf" />
+    <None Remove="Fonts\sf-ui-display-thin-58646e9b26e8b.otf" />
+    <None Remove="Fonts\sf-ui-display-ultralight-58646b19bf205.otf" />
+    <None Remove="Fonts\SFCompactDisplay-Regular.ttf" />
+    <None Remove="Fonts\SFCompactDisplay-Regular.woff" />
+    <None Remove="Fonts\SFCompactDisplay-Semibold.ttf" />
+    <None Remove="Fonts\SFCompactDisplay-Semibold.woff" />
+    <None Remove="Fonts\SFUIDisplay-Bold.ttf" />
+    <None Remove="Fonts\SFUIDisplay-Bold.woff" />
+    <None Remove="Fonts\SFUIDisplay-Medimum.ttf" />
+    <None Remove="Fonts\SFUIDisplay-Medimum.woff" />
+    <None Remove="Fonts\SFUIDisplay-Regular.ttf" />
+    <None Remove="Fonts\SFUIDisplay-Regular.woff" />
+    <None Remove="Fonts\SFUIDisplay-Semibold.ttf" />
+    <None Remove="Fonts\SFUIDisplay-Semibold.woff" />
+    <None Remove="Fonts\SFUIText-Regular.ttf" />
+    <None Remove="Fonts\SFUIText-Regular.woff" />
+    <None Remove="Fonts\SFUIText-Semibold.ttf" />
+    <None Remove="Fonts\SFUIText-Semibold.woff" />
+    <None Remove="Imagenes\EncabezadoLogosInstitucionales.jpg" />
     <None Remove="Imagenes\logo-tecnm-2018_orig.png" />
   </ItemGroup>
 
@@ -16,6 +42,32 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Fonts\RobotoMono-Regular.ttf" />
+    <Resource Include="Fonts\sf-ui-display-black-58646a6b80d5a.otf" />
+    <Resource Include="Fonts\sf-ui-display-bold-58646a511e3d9.otf" />
+    <Resource Include="Fonts\sf-ui-display-heavy-586470160b9e5.otf" />
+    <Resource Include="Fonts\sf-ui-display-light-58646b33e0551.otf" />
+    <Resource Include="Fonts\sf-ui-display-medium-58646be638f96.otf" />
+    <Resource Include="Fonts\sf-ui-display-semibold-58646eddcae92.otf" />
+    <Resource Include="Fonts\sf-ui-display-thin-58646e9b26e8b.otf" />
+    <Resource Include="Fonts\sf-ui-display-ultralight-58646b19bf205.otf" />
+    <Resource Include="Fonts\SFCompactDisplay-Regular.ttf" />
+    <Resource Include="Fonts\SFCompactDisplay-Regular.woff" />
+    <Resource Include="Fonts\SFCompactDisplay-Semibold.ttf" />
+    <Resource Include="Fonts\SFCompactDisplay-Semibold.woff" />
+    <Resource Include="Fonts\SFUIDisplay-Bold.ttf" />
+    <Resource Include="Fonts\SFUIDisplay-Bold.woff" />
+    <Resource Include="Fonts\SFUIDisplay-Medimum.ttf" />
+    <Resource Include="Fonts\SFUIDisplay-Medimum.woff" />
+    <Resource Include="Fonts\SFUIDisplay-Regular.ttf" />
+    <Resource Include="Fonts\SFUIDisplay-Regular.woff" />
+    <Resource Include="Fonts\SFUIDisplay-Semibold.ttf" />
+    <Resource Include="Fonts\SFUIDisplay-Semibold.woff" />
+    <Resource Include="Fonts\SFUIText-Regular.ttf" />
+    <Resource Include="Fonts\SFUIText-Regular.woff" />
+    <Resource Include="Fonts\SFUIText-Semibold.ttf" />
+    <Resource Include="Fonts\SFUIText-Semibold.woff" />
+    <Resource Include="Imagenes\EncabezadoLogosInstitucionales.jpg" />
     <Resource Include="Imagenes\logo-tecnm-2018_orig.png" />
   </ItemGroup>
 

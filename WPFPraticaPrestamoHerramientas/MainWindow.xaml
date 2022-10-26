@@ -3,10 +3,39 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPFPraticaPrestamoHerramientas"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        xmlns:customcontrols="clr-namespace:WPFBiblioteca.CustomControls"
+        xmlns:customcontrolsLocal="clr-namespace:WPFPraticaPrestamoHerramientas.CustomControls"
+        mc:Ignorable="d" Height="648" Width="1152"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Border
+        Background="White"
+        CornerRadius="50">
+        <DockPanel>
+            <DockPanel
+            HorizontalAlignment="Left">
+                <Border
+                    Margin="-1,-1,0,-1"
+                    Background="#1e355e"
+                    CornerRadius="50">
+                    <Border.Effect>
+                        <DropShadowEffect BlurRadius="20" ShadowDepth="1"/>
+                    </Border.Effect>
+                    <StackPanel
+                    Orientation="Vertical"
+                    Width="150"/>
+                    </Border>
+            </DockPanel>
+            <DockPanel Width="auto">
+                <DockPanel DockPanel.Dock="Top">
+                    
+                </DockPanel>
+                <StackPanel 
+                    Background="Transparent"
+                    Orientation="Vertical"/>
+            </DockPanel>
+        </DockPanel>
+    </Border>
 </Window>

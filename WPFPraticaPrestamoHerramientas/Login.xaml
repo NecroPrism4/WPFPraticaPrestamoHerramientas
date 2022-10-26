@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
         xmlns:customcontrols="clr-namespace:WPFBiblioteca.CustomControls"
+        xmlns:customcontrolsLocal="clr-namespace:WPFPraticaPrestamoHerramientas.CustomControls"
         xmlns:local="clr-namespace:WPFPraticaPrestamoHerramientas"
         Title="LoginView"
     Width="500"
@@ -20,12 +21,13 @@
     <Border
         Background="#1e355e"
         CornerRadius="50">
-        <StackPanel
+        <Grid>
+            <StackPanel
             Orientation="Vertical">
 
             <Border
                 Background="White"
-                CornerRadius="50,50,200,200">
+                CornerRadius="50,50,250,250" Height="229">
                 <Image
                       Width="279"
                       Height="144"
@@ -39,19 +41,89 @@
                 Height="80"
                 CornerRadius="15" 
                 Margin="0,60,0,0">
-                <Grid>
-                    <fa:IconImage 
+                <fa:IconImage 
                 Icon="User" 
                 Foreground="White"
                 Width="60"
                 Height="60"/>
-
-                    <customcontrols:cdvEnterUser/>
-
-
-                </Grid>
             </Border>
 
+                <customcontrols:cdvEnterUser
+                Margin="0,30,0,0"/>
+                <customcontrols:BindablePasswordBox
+                Margin="0,30,0,0"/>
+
+                <TextBlock
+                x:Name="txtMensajeError"
+                    Margin="0,10,0,0"
+                    FontFamily="SF UI Text"
+                    FontSize="16"
+                    FontWeight="UltraLight"
+                    Foreground="White" 
+                    Width="310" 
+                    Text="Mensaje de error"
+                    TextAlignment="Center"
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" />
+                
+                <customcontrolsLocal:btnSiguiente
+                Margin="0,10,0,0"/>
+
+            <StackPanel
+                            Margin="0,15,0,0"
+                            HorizontalAlignment="Center"
+                            Orientation="Horizontal">
+
+                <TextBlock
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="White"
+                                Text="Forgot Password?" />
+
+                <TextBlock
+                                Margin="8,0,0,0"
+                                Cursor="Hand"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="White"
+                                Text="Reset" />
+            </StackPanel>
+                
+                <TextBlock
+                    HorizontalAlignment="Center"
+                                Margin="0,10,0,0"
+                                Cursor="Hand"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="White"
+                                Text="REGISTRAR" />
         </StackPanel>
+            <DockPanel
+            Background="Transparent"
+            VerticalAlignment="Bottom">
+                <Border
+                    Width="Auto"
+                    Height="Auto"
+                    Background="White"
+                    CornerRadius="0,0,50,50">
+
+                    <Border>
+
+                        <Image
+                            Margin="50,0,50,0"
+                            Source="/Imagenes/EncabezadoLogosInstitucionales.jpg"/>
+                        <!--<Border.Background>
+                        <ImageBrush
+                            
+                            Stretch="Fill"
+                            ImageSource="/Imagenes/EncabezadoLogosInstitucionales.jpg"/>
+                    </Border.Background>-->
+                    </Border>
+                </Border>
+            </DockPanel>
+        </Grid>
     </Border>
 </Window>

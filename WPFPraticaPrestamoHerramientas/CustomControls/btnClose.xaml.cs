@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFBiblioteca.CustomControls
+namespace WPFPraticaPrestamoHerramientas.CustomControls
 {
     /// <summary>
-    /// Interaction logic for btnUserPrefab.xaml
+    /// Lógica de interacción para btnClose.xaml
     /// </summary>
-    public partial class btnUserPrefab : UserControl
+    public partial class btnClose : UserControl
     {
-        public btnUserPrefab()
+        public btnClose()
         {
             InitializeComponent();
         }

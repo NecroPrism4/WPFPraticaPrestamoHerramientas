@@ -10,24 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFPraticaPrestamoHerramientas
+namespace WPFPraticaPrestamoHerramientas.CustomControls
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Lógica de interacción para btnSiguiente.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class btnSiguiente : UserControl
     {
-        public Login()
+        public btnSiguiente()
         {
             InitializeComponent();
-            txtMensajeError.Text = "";
-        }
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == MouseButtonState.Pressed)
-                DragMove();
         }
     }
 }
